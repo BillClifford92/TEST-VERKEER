@@ -1,0 +1,56 @@
+Bron: https://opendata.ndw.nu/actueel_beeld.xml.gz
+Records per type: {'RoadOrCarriagewayOrLaneManagement': 874, 'GeneralObstruction': 6, 'SpeedManagement': 125, 'ReroutingManagement': 72, 'VehicleObstruction': 84, 'GeneralNetworkManagement': 14, 'PoorEnvironmentConditions': 1, 'GeneralInstructionOrMessageToRoadUsers': 1, 'Accident': 1}
+Filter: TYPES=['AbnormalTraffic', 'Accident', 'VehicleObstruction'] WEGEN=alle BBOX=heel NL
+Items in feed: 85
+
+Voorbeeld van het eerste record van dit type (ruwe XML):
+<ns0:situationRecord xmlns:ns0="http://datex2.eu/schema/3/situation" xmlns:ns2="http://datex2.eu/schema/3/common" xmlns:ns3="http://datex2.eu/schema/3/locationReferencing" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="sit:VehicleObstruction" id="NDW08_3106c41e-f113-4ed4-9b87-2a91b25c323d" version="1">
+  <ns0:situationRecordCreationReference>7fc73236-91b8-ef11-a53f-00505698df49</ns0:situationRecordCreationReference>
+  <ns0:situationRecordCreationTime>2026-11-23T19:17:00.000454658Z</ns0:situationRecordCreationTime>
+  <ns0:situationRecordVersionTime>2026-11-23T19:17:00.000454658Z</ns0:situationRecordVersionTime>
+  <ns0:probabilityOfOccurrence>certain</ns0:probabilityOfOccurrence>
+  <ns0:safetyRelatedMessage>true</ns0:safetyRelatedMessage>
+  <ns0:source>
+    <ns2:sourceName>
+      <ns2:values>
+        <ns2:value lang="nl">RoadSafetyServices</ns2:value>
+      </ns2:values>
+    </ns2:sourceName>
+  </ns0:source>
+  <ns0:validity>
+    <ns2:validityStatus>definedByValidityTimeSpec</ns2:validityStatus>
+    <ns2:validityTimeSpecification>
+      <ns2:overallStartTime>2026-11-23T19:17:00.000454658Z</ns2:overallStartTime>
+    </ns2:validityTimeSpecification>
+  </ns0:validity>
+  <ns0:generalPublicComment>
+    <ns0:comment>
+      <ns2:values>
+        <ns2:value lang="nl">Pijlwagen</ns2:value>
+      </ns2:values>
+    </ns0:comment>
+  </ns0:generalPublicComment>
+  <ns0:locationReference xsi:type="loc:PointLocation">
+    <ns3:supplementaryPositionalDescription>
+      <ns3:carriageway>
+        <ns3:carriageway>mainCarriageway</ns3:carriageway>
+      </ns3:carriageway>
+    </ns3:supplementaryPositionalDescription>
+    <ns3:pointByCoordinates>
+      <ns3:bearing>238</ns3:bearing>
+      <ns3:pointCoordinates>
+        <ns3:latitude>52.30803</ns3:latitude>
+        <ns3:longitude>4.7537766</ns3:longitude>
+      </ns3:pointCoordinates>
+    </ns3:pointByCoordinates>
+  </ns0:locationReference>
+  <ns0:mobilityOfObstruction>
+    <ns0:mobilityType>stationary</ns0:mobilityType>
+  </ns0:mobilityOfObstruction>
+  <ns0:vehicleObstructionType>other</ns0:vehicleObstructionType>
+  <ns0:obstructingVehicle>
+    <ns2:vehicleCharacteristics>
+      <ns2:vehicleType>constructionOrMaintenanceVehicle</ns2:vehicleType>
+    </ns2:vehicleCharacteristics>
+  </ns0:obstructingVehicle>
+</ns0:situationRecord>
