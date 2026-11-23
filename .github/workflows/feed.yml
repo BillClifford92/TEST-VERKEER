@@ -30,7 +30,7 @@ jobs:
           WEGEN: #"A12,A50,A325,A348"
           BBOX: #"5.0,51.8,6.1,52.2"
           # Alleen files. Ook ongevallen/pech: "AbnormalTraffic,Accident,VehicleObstruction"
-          TYPES: "AbnormalTraffic,Accident,VehicleObstruction" #"AbnormalTraffic" voor alleen files
+          TYPES: "AbnormalTraffic,Accident" #"AbnormalTraffic" voor alleen files
         run: python maak_feed.py
 
       - name: Opslaan als er iets veranderd is
