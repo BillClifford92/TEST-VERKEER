@@ -27,10 +27,10 @@ jobs:
       - name: Feed maken
         env:
           # Pas deze twee aan naar jouw situatie (leeg laten = geen filter):
-          WEGEN: "A12,A50,A325,A348"
-          BBOX: "5.0,51.8,6.1,52.2"
+          WEGEN: #"A12,A50,A325,A348"
+          BBOX: #"5.0,51.8,6.1,52.2"
           # Alleen files. Ook ongevallen/pech: "AbnormalTraffic,Accident,VehicleObstruction"
-          TYPES: "AbnormalTraffic"
+          TYPES: "AbnormalTraffic,Accident,VehicleObstruction" #"AbnormalTraffic" voor alleen files
         run: python maak_feed.py
 
       - name: Opslaan als er iets veranderd is
