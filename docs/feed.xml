@@ -4,49 +4,14 @@
 <title>Actuele files (NDW open data)</title>
 <link>https://opendata.ndw.nu/</link>
 <description>Automatisch gegenereerd uit NDW actueel_beeld</description>
-<lastBuildDate>Tue, 24 Nov 2026 18:34:54 +0000</lastBuildDate>
+<lastBuildDate>Wed, 25 Nov 2026 02:45:31 +0000</lastBuildDate>
 <ttl>10</ttl>
 <item>
-<title>Onbekende weg | 3,0 km | +17 min</title>
-<description>stationaryTraffic</description>
+<title>Geen files in dit gebied</title>
+<description>Er zijn op dit moment geen meldingen.</description>
 <link>https://www.rijkswaterstaat.nl/wegen/verkeersinformatie</link>
-<guid isPermaLink="false">NLRWS_0005565364_1</guid>
-<pubDate>Tue, 24 Nov 2026 17:19:27 +0000</pubDate>
-</item>
-<item>
-<title>Onbekende weg | 3,6 km | +7 min</title>
-<description>slowTraffic</description>
-<link>https://www.rijkswaterstaat.nl/wegen/verkeersinformatie</link>
-<guid isPermaLink="false">NLRWS_0005565437_1</guid>
-<pubDate>Tue, 24 Nov 2026 18:17:25 +0000</pubDate>
-</item>
-<item>
-<title>Onbekende weg | 3,5 km | +7 min</title>
-<description>slowTraffic</description>
-<link>https://www.rijkswaterstaat.nl/wegen/verkeersinformatie</link>
-<guid isPermaLink="false">NLRWS_0005565416_1</guid>
-<pubDate>Tue, 24 Nov 2026 17:45:26 +0000</pubDate>
-</item>
-<item>
-<title>Onbekende weg | Accident</title>
-<description>Accident</description>
-<link>https://www.rijkswaterstaat.nl/wegen/verkeersinformatie</link>
-<guid isPermaLink="false">NDW06_7ecc96ab-a2fc-4e11-ac16-ba20318a7690_1</guid>
-<pubDate>Tue, 24 Nov 2026 18:08:31 +0000</pubDate>
-</item>
-<item>
-<title>Onbekende weg | Accident</title>
-<description>Accident</description>
-<link>https://www.rijkswaterstaat.nl/wegen/verkeersinformatie</link>
-<guid isPermaLink="false">NDW06_6cad1cb8-700c-48c1-a5b0-1d94ee34bdc2_1</guid>
-<pubDate>Tue, 24 Nov 2026 18:17:20 +0000</pubDate>
-</item>
-<item>
-<title>Onbekende weg | Accident</title>
-<description>Accident</description>
-<link>https://www.rijkswaterstaat.nl/wegen/verkeersinformatie</link>
-<guid isPermaLink="false">NDW06_aaf0807a-3170-439a-bb62-63276b5ee3cf_1</guid>
-<pubDate>Tue, 24 Nov 2026 18:07:31 +0000</pubDate>
+<guid isPermaLink="false">geen-files</guid>
+<pubDate>Wed, 25 Nov 2026 02:45:31 +0000</pubDate>
 </item>
 </channel>
 </rss>
