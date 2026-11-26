@@ -1,5 +1,69 @@
 Bron: https://opendata.ndw.nu/actueel_beeld.xml.gz
-Records per type: {'RoadOrCarriagewayOrLaneManagement': 837, 'SpeedManagement': 85, 'VehicleObstruction': 44, 'ReroutingManagement': 68, 'GeneralNetworkManagement': 4}
+Records per type: {'RoadOrCarriagewayOrLaneManagement': 855, 'VehicleObstruction': 178, 'SpeedManagement': 77, 'GeneralObstruction': 35, 'ReroutingManagement': 39, 'Accident': 9, 'GeneralNetworkManagement': 9, 'AbnormalTraffic': 6}
 Filter: TYPES=['AbnormalTraffic', 'Accident'] WEGEN=alle BBOX=heel NL
-Items in feed: 0
+Items in feed: 15
 
+Voorbeeld van het eerste record van dit type (ruwe XML):
+<ns0:situationRecord xmlns:ns0="http://datex2.eu/schema/3/situation" xmlns:ns2="http://datex2.eu/schema/3/common" xmlns:ns3="http://datex2.eu/schema/3/locationReferencing" xmlns:ns4="http://datex2.eu/schema/3/situationRecordExtension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="sit:Accident" id="NDW06_f881335f-5c37-437f-95ef-792004073880_1" version="1">
+  <ns0:situationRecordCreationTime>2026-11-26T12:39:31.660284101Z</ns0:situationRecordCreationTime>
+  <ns0:situationRecordVersionTime>2026-11-26T12:39:31.660284101Z</ns0:situationRecordVersionTime>
+  <ns0:probabilityOfOccurrence>certain</ns0:probabilityOfOccurrence>
+  <ns0:safetyRelatedMessage>true</ns0:safetyRelatedMessage>
+  <ns0:source>
+    <ns2:sourceName>
+      <ns2:values>
+        <ns2:value lang="nl">NDW</ns2:value>
+      </ns2:values>
+    </ns2:sourceName>
+  </ns0:source>
+  <ns0:validity>
+    <ns2:validityStatus>definedByValidityTimeSpec</ns2:validityStatus>
+    <ns2:validityTimeSpecification>
+      <ns2:overallStartTime>2026-11-26T12:39:31.660284101Z</ns2:overallStartTime>
+    </ns2:validityTimeSpecification>
+  </ns0:validity>
+  <ns0:locationReference xsi:type="loc:PointLocation">
+    <ns3:supplementaryPositionalDescription>
+      <ns3:carriageway>
+        <ns3:carriageway>mainCarriageway</ns3:carriageway>
+      </ns3:carriageway>
+    </ns3:supplementaryPositionalDescription>
+    <ns3:pointByCoordinates>
+      <ns3:bearing>234</ns3:bearing>
+      <ns3:pointCoordinates>
+        <ns3:latitude>52.067562</ns3:latitude>
+        <ns3:longitude>4.3289967</ns3:longitude>
+      </ns3:pointCoordinates>
+    </ns3:pointByCoordinates>
+    <ns3:alertCPoint xsi:type="loc:AlertCMethod4Point">
+      <ns3:alertCLocationCountryCode>8</ns3:alertCLocationCountryCode>
+      <ns3:alertCLocationTableNumber>6.14</ns3:alertCLocationTableNumber>
+      <ns3:alertCLocationTableVersion>A</ns3:alertCLocationTableVersion>
+      <ns3:alertCDirection>
+        <ns3:alertCDirectionCoded>negative</ns3:alertCDirectionCoded>
+        <ns3:alertCAffectedDirection>aligned</ns3:alertCAffectedDirection>
+      </ns3:alertCDirection>
+      <ns3:alertCMethod4PrimaryPointLocation>
+        <ns3:alertCLocation>
+          <ns3:specificLocation>28532</ns3:specificLocation>
+        </ns3:alertCLocation>
+        <ns3:offsetDistance>
+          <ns3:offsetDistance>38</ns3:offsetDistance>
+        </ns3:offsetDistance>
+      </ns3:alertCMethod4PrimaryPointLocation>
+    </ns3:alertCPoint>
+  </ns0:locationReference>
+  <ns0:_situationRecordExtension>
+    <ns0:situationRecordExtended>
+      <ns4:observationDetermination>
+        <ns4:persistenceEvidenceLevel>40</ns4:persistenceEvidenceLevel>
+        <ns4:persistenceDeterminationType>managedByAutomation</ns4:persistenceDeterminationType>
+      </ns4:observationDetermination>
+      <ns4:observationReport>
+        <ns4:knownByTmc>false</ns4:knownByTmc>
+        <ns4:isProtected>false</ns4:isProtected>
+      </ns4:observationReport>
+    </ns0:situationRecordExtended>
+  </ns0:_situationRecordExtension>
+  <ns0:accidentType>other</ns0:accidentType>
+</ns0:situationRecord>
