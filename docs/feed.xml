@@ -4,28 +4,14 @@
 <title>Actuele files (NDW open data)</title>
 <link>https://opendata.ndw.nu/</link>
 <description>Automatisch gegenereerd uit NDW actueel_beeld</description>
-<lastBuildDate>Wed, 25 Nov 2026 20:41:25 +0000</lastBuildDate>
+<lastBuildDate>Thu, 26 Nov 2026 03:11:52 +0000</lastBuildDate>
 <ttl>10</ttl>
 <item>
-<title>Onbekende weg | Accident</title>
-<description>Accident</description>
+<title>Geen files in dit gebied</title>
+<description>Er zijn op dit moment geen meldingen.</description>
 <link>https://www.rijkswaterstaat.nl/wegen/verkeersinformatie</link>
-<guid isPermaLink="false">NDW06_c01fad91-33ed-44ad-a388-2fe69774b402_1</guid>
-<pubDate>Wed, 25 Nov 2026 20:26:32 +0000</pubDate>
-</item>
-<item>
-<title>Onbekende weg | Accident</title>
-<description>Accident</description>
-<link>https://www.rijkswaterstaat.nl/wegen/verkeersinformatie</link>
-<guid isPermaLink="false">NDW06_8592ebd8-37ec-4f5e-9250-6fa9c053fabd_1</guid>
-<pubDate>Wed, 25 Nov 2026 20:37:19 +0000</pubDate>
-</item>
-<item>
-<title>Onbekende weg | Accident</title>
-<description>Accident</description>
-<link>https://www.rijkswaterstaat.nl/wegen/verkeersinformatie</link>
-<guid isPermaLink="false">NDW06_796bd897-ecd2-410d-8e00-c5c887eeebb5_1</guid>
-<pubDate>Wed, 25 Nov 2026 20:04:31 +0000</pubDate>
+<guid isPermaLink="false">geen-files</guid>
+<pubDate>Thu, 26 Nov 2026 03:11:52 +0000</pubDate>
 </item>
 </channel>
 </rss>
