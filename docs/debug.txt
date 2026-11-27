@@ -1,13 +1,13 @@
 Bron: https://opendata.ndw.nu/actueel_beeld.xml.gz
-Records per type: {'RoadOrCarriagewayOrLaneManagement': 752, 'VehicleObstruction': 48, 'SpeedManagement': 74, 'ReroutingManagement': 46, 'GeneralObstruction': 5, 'GeneralNetworkManagement': 4, 'AbnormalTraffic': 1}
+Records per type: {'RoadOrCarriagewayOrLaneManagement': 819, 'AbnormalTraffic': 43, 'ReroutingManagement': 40, 'VehicleObstruction': 179, 'SpeedManagement': 74, 'GeneralObstruction': 21, 'GeneralNetworkManagement': 10, 'Accident': 23, 'MaintenanceWorks': 3}
 Filter: TYPES=['AbnormalTraffic', 'Accident'] WEGEN=alle BBOX=heel NL
-Items in feed: 1
+Items in feed: 66
 
 Voorbeeld van het eerste record van dit type (ruwe XML):
-<ns0:situationRecord xmlns:ns0="http://datex2.eu/schema/3/situation" xmlns:ns2="http://datex2.eu/schema/3/common" xmlns:ns3="http://datex2.eu/schema/3/locationReferencing" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="sit:AbnormalTraffic" id="NLRWS_0005568882_1" version="1">
-  <ns0:situationRecordCreationReference>b731dc66-1c59-42c6-b5f7-4037d81458a5</ns0:situationRecordCreationReference>
-  <ns0:situationRecordCreationTime>2026-11-26T08:57:25.093857Z</ns0:situationRecordCreationTime>
-  <ns0:situationRecordVersionTime>2026-11-26T08:59:00.263676Z</ns0:situationRecordVersionTime>
+<ns0:situationRecord xmlns:ns0="http://datex2.eu/schema/3/situation" xmlns:ns2="http://datex2.eu/schema/3/common" xmlns:ns3="http://datex2.eu/schema/3/locationReferencing" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="sit:AbnormalTraffic" id="NLRWS_0005570986_1" version="176">
+  <ns0:situationRecordCreationReference>86de48c8-2956-40d3-862c-a5399fd9ad28</ns0:situationRecordCreationReference>
+  <ns0:situationRecordCreationTime>2026-11-27T10:36:26.557876Z</ns0:situationRecordCreationTime>
+  <ns0:situationRecordVersionTime>2026-11-27T13:25:02.484969Z</ns0:situationRecordVersionTime>
   <ns0:probabilityOfOccurrence>certain</ns0:probabilityOfOccurrence>
   <ns0:source>
     <ns2:sourceName>
@@ -19,22 +19,22 @@ Voorbeeld van het eerste record van dit type (ruwe XML):
   <ns0:validity>
     <ns2:validityStatus>definedByValidityTimeSpec</ns2:validityStatus>
     <ns2:validityTimeSpecification>
-      <ns2:overallStartTime>2026-11-26T08:57:25.093857Z</ns2:overallStartTime>
+      <ns2:overallStartTime>2026-11-27T10:36:26.557876Z</ns2:overallStartTime>
       <ns2:validPeriod>
-        <ns2:startOfPeriod>2026-11-26T08:57:25.093857Z</ns2:startOfPeriod>
+        <ns2:startOfPeriod>2026-11-27T10:36:26.557876Z</ns2:startOfPeriod>
       </ns2:validPeriod>
     </ns2:validityTimeSpecification>
   </ns0:validity>
   <ns0:impact>
     <ns0:delays>
-      <ns0:delayBand>upToTenMinutes</ns0:delayBand>
-      <ns0:delayTimeValue>281.0</ns0:delayTimeValue>
+      <ns0:delayBand>betweenThirtyMinutesAndOneHour</ns0:delayBand>
+      <ns0:delayTimeValue>1910.0</ns0:delayTimeValue>
     </ns0:delays>
   </ns0:impact>
   <ns0:cause>
     <ns0:causeDescription>
       <ns2:values>
-        <ns2:value lang="nl">Bergingswerkzaamheden</ns2:value>
+        <ns2:value lang="nl">Defecte vrachtwagen</ns2:value>
       </ns2:values>
     </ns0:causeDescription>
     <ns0:causeType>other</ns0:causeType>
@@ -48,7 +48,7 @@ Voorbeeld van het eerste record van dit type (ruwe XML):
           </ns3:carriageway>
         </ns3:supplementaryPositionalDescription>
         <ns3:gmlLineString srsName="WGS 84">
-          <ns3:posList>51.682048 4.855936 51.682553 4.858136 51.682919 4.859845 51.683174 4.861119 51.683512 4.862959 51.686201 4.878267 51.686375 4.879397 51.686676 4.881633 51.687292 4.885205</ns3:posList>
+          <ns3:posList>51.715561 4.637883 51.722128 4.633904 51.722919 4.633458 51.723516 4.63315 51.724521 4.632717 51.725068 4.632527 51.725852 4.632312 51.726517 4.632178 51.727175 4.632091 51.727813 4.632046 51.728604 4.632049 51.729385 4.63211 51.729977 4.632194 51.73056 4.632319 51.731324 4.63253 51.733738 4.633352 51.735786 4.634143 51.737061 4.634679 51.738513 4.635321 51.740671 4.636356 51.753776 4.643098 51.755947 4.644124 51.757382 4.64475 51.758578 4.645234</ns3:posList>
         </ns3:gmlLineString>
       </ns3:location>
     </ns3:locationContainedInItinerary>
@@ -69,24 +69,24 @@ Voorbeeld van het eerste record van dit type (ruwe XML):
           </ns3:alertCDirection>
           <ns3:alertCMethod4PrimaryPointLocation>
             <ns3:alertCLocation>
-              <ns3:specificLocation>9792</ns3:specificLocation>
+              <ns3:specificLocation>7612</ns3:specificLocation>
             </ns3:alertCLocation>
             <ns3:offsetDistance>
-              <ns3:offsetDistance>16</ns3:offsetDistance>
+              <ns3:offsetDistance>1553</ns3:offsetDistance>
             </ns3:offsetDistance>
           </ns3:alertCMethod4PrimaryPointLocation>
           <ns3:alertCMethod4SecondaryPointLocation>
             <ns3:alertCLocation>
-              <ns3:specificLocation>9788</ns3:specificLocation>
+              <ns3:specificLocation>7608</ns3:specificLocation>
             </ns3:alertCLocation>
             <ns3:offsetDistance>
-              <ns3:offsetDistance>784</ns3:offsetDistance>
+              <ns3:offsetDistance>1847</ns3:offsetDistance>
             </ns3:offsetDistance>
           </ns3:alertCMethod4SecondaryPointLocation>
         </ns3:alertCLinear>
       </ns3:location>
     </ns3:locationContainedInItinerary>
   </ns0:locationReference>
-  <ns0:abnormalTrafficType>slowTraffic</ns0:abnormalTrafficType>
-  <ns0:queueLength>2100</ns0:queueLength>
+  <ns0:abnormalTrafficType>stationaryTraffic</ns0:abnormalTrafficType>
+  <ns0:queueLength>5000</ns0:queueLength>
 </ns0:situationRecord>
