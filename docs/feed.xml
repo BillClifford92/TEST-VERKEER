@@ -4,7 +4,7 @@
 <title>Actuele files (NDW open data)</title>
 <link>https://opendata.ndw.nu/</link>
 <description>Automatisch gegenereerd uit NDW actueel_beeld</description>
-<lastBuildDate>Thu, 26 Nov 2026 21:57:45 +0000</lastBuildDate>
+<lastBuildDate>Fri, 27 Nov 2026 03:56:35 +0000</lastBuildDate>
 <ttl>10</ttl>
 <item>
 <title>Onbekende weg | 2,1 km | +5 min</title>
@@ -12,41 +12,6 @@
 <link>https://www.rijkswaterstaat.nl/wegen/verkeersinformatie</link>
 <guid isPermaLink="false">NLRWS_0005568882_1</guid>
 <pubDate>Thu, 26 Nov 2026 08:57:25 +0000</pubDate>
-</item>
-<item>
-<title>Onbekende weg | Accident</title>
-<description>Accident</description>
-<link>https://www.rijkswaterstaat.nl/wegen/verkeersinformatie</link>
-<guid isPermaLink="false">NDW06_1f4d65ac-3e86-4a21-ade6-c31a3efd0006_1</guid>
-<pubDate>Thu, 26 Nov 2026 21:54:31 +0000</pubDate>
-</item>
-<item>
-<title>Onbekende weg | Accident</title>
-<description>Accident</description>
-<link>https://www.rijkswaterstaat.nl/wegen/verkeersinformatie</link>
-<guid isPermaLink="false">NDW06_38fe374f-7ed5-4a76-a534-d5d7a7873903_1</guid>
-<pubDate>Thu, 26 Nov 2026 21:45:31 +0000</pubDate>
-</item>
-<item>
-<title>Onbekende weg | Accident</title>
-<description>Accident</description>
-<link>https://www.rijkswaterstaat.nl/wegen/verkeersinformatie</link>
-<guid isPermaLink="false">NDW06_cffce409-b249-46cc-aab9-d0714c797b99_1</guid>
-<pubDate>Thu, 26 Nov 2026 21:31:30 +0000</pubDate>
-</item>
-<item>
-<title>Onbekende weg | Accident</title>
-<description>Accident</description>
-<link>https://www.rijkswaterstaat.nl/wegen/verkeersinformatie</link>
-<guid isPermaLink="false">NDW06_e4f3ab73-9e88-4dc7-9025-e07aa6cd217a_2</guid>
-<pubDate>Thu, 26 Nov 2026 21:15:32 +0000</pubDate>
-</item>
-<item>
-<title>Onbekende weg | Accident</title>
-<description>Accident</description>
-<link>https://www.rijkswaterstaat.nl/wegen/verkeersinformatie</link>
-<guid isPermaLink="false">NDW06_538ea36d-79ee-4d32-94ab-7d93acb8683e_1</guid>
-<pubDate>Thu, 26 Nov 2026 21:20:31 +0000</pubDate>
 </item>
 </channel>
 </rss>

@@ -1,69 +1,92 @@
 Bron: https://opendata.ndw.nu/actueel_beeld.xml.gz
-Records per type: {'RoadOrCarriagewayOrLaneManagement': 868, 'VehicleObstruction': 143, 'SpeedManagement': 119, 'ReroutingManagement': 72, 'Accident': 5, 'GeneralNetworkManagement': 6, 'GeneralObstruction': 4, 'AbnormalTraffic': 1}
+Records per type: {'RoadOrCarriagewayOrLaneManagement': 752, 'VehicleObstruction': 48, 'SpeedManagement': 74, 'ReroutingManagement': 46, 'GeneralObstruction': 5, 'GeneralNetworkManagement': 4, 'AbnormalTraffic': 1}
 Filter: TYPES=['AbnormalTraffic', 'Accident'] WEGEN=alle BBOX=heel NL
-Items in feed: 6
+Items in feed: 1
 
 Voorbeeld van het eerste record van dit type (ruwe XML):
-<ns0:situationRecord xmlns:ns0="http://datex2.eu/schema/3/situation" xmlns:ns2="http://datex2.eu/schema/3/common" xmlns:ns3="http://datex2.eu/schema/3/locationReferencing" xmlns:ns4="http://datex2.eu/schema/3/situationRecordExtension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="sit:Accident" id="NDW06_1f4d65ac-3e86-4a21-ade6-c31a3efd0006_1" version="1">
-  <ns0:situationRecordCreationTime>2026-11-26T21:54:31.084940453Z</ns0:situationRecordCreationTime>
-  <ns0:situationRecordVersionTime>2026-11-26T21:54:31.084940453Z</ns0:situationRecordVersionTime>
+<ns0:situationRecord xmlns:ns0="http://datex2.eu/schema/3/situation" xmlns:ns2="http://datex2.eu/schema/3/common" xmlns:ns3="http://datex2.eu/schema/3/locationReferencing" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="sit:AbnormalTraffic" id="NLRWS_0005568882_1" version="1">
+  <ns0:situationRecordCreationReference>b731dc66-1c59-42c6-b5f7-4037d81458a5</ns0:situationRecordCreationReference>
+  <ns0:situationRecordCreationTime>2026-11-26T08:57:25.093857Z</ns0:situationRecordCreationTime>
+  <ns0:situationRecordVersionTime>2026-11-26T08:59:00.263676Z</ns0:situationRecordVersionTime>
   <ns0:probabilityOfOccurrence>certain</ns0:probabilityOfOccurrence>
-  <ns0:safetyRelatedMessage>true</ns0:safetyRelatedMessage>
   <ns0:source>
     <ns2:sourceName>
       <ns2:values>
-        <ns2:value lang="nl">NDW</ns2:value>
+        <ns2:value lang="nl">NLRWS</ns2:value>
       </ns2:values>
     </ns2:sourceName>
   </ns0:source>
   <ns0:validity>
     <ns2:validityStatus>definedByValidityTimeSpec</ns2:validityStatus>
     <ns2:validityTimeSpecification>
-      <ns2:overallStartTime>2026-11-26T21:54:31.084940453Z</ns2:overallStartTime>
+      <ns2:overallStartTime>2026-11-26T08:57:25.093857Z</ns2:overallStartTime>
+      <ns2:validPeriod>
+        <ns2:startOfPeriod>2026-11-26T08:57:25.093857Z</ns2:startOfPeriod>
+      </ns2:validPeriod>
     </ns2:validityTimeSpecification>
   </ns0:validity>
-  <ns0:locationReference xsi:type="loc:PointLocation">
-    <ns3:supplementaryPositionalDescription>
-      <ns3:carriageway>
-        <ns3:carriageway>mainCarriageway</ns3:carriageway>
-      </ns3:carriageway>
-    </ns3:supplementaryPositionalDescription>
-    <ns3:pointByCoordinates>
-      <ns3:bearing>85</ns3:bearing>
-      <ns3:pointCoordinates>
-        <ns3:latitude>52.22065</ns3:latitude>
-        <ns3:longitude>4.9679594</ns3:longitude>
-      </ns3:pointCoordinates>
-    </ns3:pointByCoordinates>
-    <ns3:alertCPoint xsi:type="loc:AlertCMethod4Point">
-      <ns3:alertCLocationCountryCode>8</ns3:alertCLocationCountryCode>
-      <ns3:alertCLocationTableNumber>6.14</ns3:alertCLocationTableNumber>
-      <ns3:alertCLocationTableVersion>A</ns3:alertCLocationTableVersion>
-      <ns3:alertCDirection>
-        <ns3:alertCDirectionCoded>positive</ns3:alertCDirectionCoded>
-        <ns3:alertCAffectedDirection>aligned</ns3:alertCAffectedDirection>
-      </ns3:alertCDirection>
-      <ns3:alertCMethod4PrimaryPointLocation>
-        <ns3:alertCLocation>
-          <ns3:specificLocation>10732</ns3:specificLocation>
-        </ns3:alertCLocation>
-        <ns3:offsetDistance>
-          <ns3:offsetDistance>178</ns3:offsetDistance>
-        </ns3:offsetDistance>
-      </ns3:alertCMethod4PrimaryPointLocation>
-    </ns3:alertCPoint>
+  <ns0:impact>
+    <ns0:delays>
+      <ns0:delayBand>upToTenMinutes</ns0:delayBand>
+      <ns0:delayTimeValue>281.0</ns0:delayTimeValue>
+    </ns0:delays>
+  </ns0:impact>
+  <ns0:cause>
+    <ns0:causeDescription>
+      <ns2:values>
+        <ns2:value lang="nl">Bergingswerkzaamheden</ns2:value>
+      </ns2:values>
+    </ns0:causeDescription>
+    <ns0:causeType>other</ns0:causeType>
+  </ns0:cause>
+  <ns0:locationReference xsi:type="loc:ItineraryByIndexedLocations">
+    <ns3:locationContainedInItinerary index="0">
+      <ns3:location xsi:type="loc:LinearLocation">
+        <ns3:supplementaryPositionalDescription>
+          <ns3:carriageway>
+            <ns3:carriageway>mainCarriageway</ns3:carriageway>
+          </ns3:carriageway>
+        </ns3:supplementaryPositionalDescription>
+        <ns3:gmlLineString srsName="WGS 84">
+          <ns3:posList>51.682048 4.855936 51.682553 4.858136 51.682919 4.859845 51.683174 4.861119 51.683512 4.862959 51.686201 4.878267 51.686375 4.879397 51.686676 4.881633 51.687292 4.885205</ns3:posList>
+        </ns3:gmlLineString>
+      </ns3:location>
+    </ns3:locationContainedInItinerary>
+    <ns3:locationContainedInItinerary index="1">
+      <ns3:location xsi:type="loc:SingleRoadLinearLocation">
+        <ns3:supplementaryPositionalDescription>
+          <ns3:carriageway>
+            <ns3:carriageway>mainCarriageway</ns3:carriageway>
+          </ns3:carriageway>
+        </ns3:supplementaryPositionalDescription>
+        <ns3:alertCLinear xsi:type="loc:AlertCMethod4Linear">
+          <ns3:alertCLocationCountryCode>8</ns3:alertCLocationCountryCode>
+          <ns3:alertCLocationTableNumber>6.14</ns3:alertCLocationTableNumber>
+          <ns3:alertCLocationTableVersion>A</ns3:alertCLocationTableVersion>
+          <ns3:alertCDirection>
+            <ns3:alertCDirectionCoded>positive</ns3:alertCDirectionCoded>
+            <ns3:alertCAffectedDirection>aligned</ns3:alertCAffectedDirection>
+          </ns3:alertCDirection>
+          <ns3:alertCMethod4PrimaryPointLocation>
+            <ns3:alertCLocation>
+              <ns3:specificLocation>9792</ns3:specificLocation>
+            </ns3:alertCLocation>
+            <ns3:offsetDistance>
+              <ns3:offsetDistance>16</ns3:offsetDistance>
+            </ns3:offsetDistance>
+          </ns3:alertCMethod4PrimaryPointLocation>
+          <ns3:alertCMethod4SecondaryPointLocation>
+            <ns3:alertCLocation>
+              <ns3:specificLocation>9788</ns3:specificLocation>
+            </ns3:alertCLocation>
+            <ns3:offsetDistance>
+              <ns3:offsetDistance>784</ns3:offsetDistance>
+            </ns3:offsetDistance>
+          </ns3:alertCMethod4SecondaryPointLocation>
+        </ns3:alertCLinear>
+      </ns3:location>
+    </ns3:locationContainedInItinerary>
   </ns0:locationReference>
-  <ns0:_situationRecordExtension>
-    <ns0:situationRecordExtended>
-      <ns4:observationDetermination>
-        <ns4:persistenceEvidenceLevel>40</ns4:persistenceEvidenceLevel>
-        <ns4:persistenceDeterminationType>managedByAutomation</ns4:persistenceDeterminationType>
-      </ns4:observationDetermination>
-      <ns4:observationReport>
-        <ns4:knownByTmc>false</ns4:knownByTmc>
-        <ns4:isProtected>false</ns4:isProtected>
-      </ns4:observationReport>
-    </ns0:situationRecordExtended>
-  </ns0:_situationRecordExtension>
-  <ns0:accidentType>other</ns0:accidentType>
+  <ns0:abnormalTrafficType>slowTraffic</ns0:abnormalTrafficType>
+  <ns0:queueLength>2100</ns0:queueLength>
 </ns0:situationRecord>
