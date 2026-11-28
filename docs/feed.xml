@@ -4,8 +4,22 @@
 <title>Actuele files (NDW open data)</title>
 <link>https://opendata.ndw.nu/</link>
 <description>Automatisch gegenereerd uit NDW actueel_beeld</description>
-<lastBuildDate>Sat, 28 Nov 2026 03:55:58 +0000</lastBuildDate>
+<lastBuildDate>Sat, 28 Nov 2026 12:38:42 +0000</lastBuildDate>
 <ttl>10</ttl>
+<item>
+<title>Onbekende weg | 6,0 km | +18 min</title>
+<description>stationaryTraffic</description>
+<link>https://www.rijkswaterstaat.nl/wegen/verkeersinformatie</link>
+<guid isPermaLink="false">NLRWS_0005572952_1</guid>
+<pubDate>Sat, 28 Nov 2026 12:01:26 +0000</pubDate>
+</item>
+<item>
+<title>Onbekende weg | 4,2 km | +6 min</title>
+<description>slowTraffic</description>
+<link>https://www.rijkswaterstaat.nl/wegen/verkeersinformatie</link>
+<guid isPermaLink="false">NLRWS_0005572975_1</guid>
+<pubDate>Sat, 28 Nov 2026 12:36:26 +0000</pubDate>
+</item>
 <item>
 <title>Onbekende weg | 2,1 km | +5 min</title>
 <description>slowTraffic</description>
@@ -17,8 +31,78 @@
 <title>Onbekende weg | Accident</title>
 <description>Accident</description>
 <link>https://www.rijkswaterstaat.nl/wegen/verkeersinformatie</link>
-<guid isPermaLink="false">NDW06_2465a69f-6365-42e8-abdd-03ba3a5a73d1_1</guid>
-<pubDate>Sat, 28 Nov 2026 03:37:30 +0000</pubDate>
+<guid isPermaLink="false">NDW06_e3413d0c-b3c8-451d-abe0-f52068e743bd_1</guid>
+<pubDate>Sat, 28 Nov 2026 12:08:31 +0000</pubDate>
+</item>
+<item>
+<title>Onbekende weg | Accident</title>
+<description>Accident</description>
+<link>https://www.rijkswaterstaat.nl/wegen/verkeersinformatie</link>
+<guid isPermaLink="false">NDW06_88c89c23-17cf-416c-bce9-dc72c29a6145_1</guid>
+<pubDate>Sat, 28 Nov 2026 12:29:30 +0000</pubDate>
+</item>
+<item>
+<title>Onbekende weg | Accident</title>
+<description>Accident</description>
+<link>https://www.rijkswaterstaat.nl/wegen/verkeersinformatie</link>
+<guid isPermaLink="false">NDW06_70204a4e-89d0-4de6-87ac-dcc8ab2690c6_1</guid>
+<pubDate>Sat, 28 Nov 2026 12:25:30 +0000</pubDate>
+</item>
+<item>
+<title>Onbekende weg | Accident</title>
+<description>Accident</description>
+<link>https://www.rijkswaterstaat.nl/wegen/verkeersinformatie</link>
+<guid isPermaLink="false">NDW06_5b9cbd62-e49e-47c9-9e52-60e0389cc88b_1</guid>
+<pubDate>Sat, 28 Nov 2026 12:32:31 +0000</pubDate>
+</item>
+<item>
+<title>Onbekende weg | Accident</title>
+<description>Accident</description>
+<link>https://www.rijkswaterstaat.nl/wegen/verkeersinformatie</link>
+<guid isPermaLink="false">NDW06_bd9e60c1-8427-4c9a-9381-c283a2da2e6b_2</guid>
+<pubDate>Sat, 28 Nov 2026 12:36:32 +0000</pubDate>
+</item>
+<item>
+<title>Onbekende weg | Accident</title>
+<description>Accident</description>
+<link>https://www.rijkswaterstaat.nl/wegen/verkeersinformatie</link>
+<guid isPermaLink="false">NDW06_55abb8ab-1fe6-4b0c-b658-bd389274c22d_1</guid>
+<pubDate>Sat, 28 Nov 2026 11:57:12 +0000</pubDate>
+</item>
+<item>
+<title>Onbekende weg | Accident</title>
+<description>Accident</description>
+<link>https://www.rijkswaterstaat.nl/wegen/verkeersinformatie</link>
+<guid isPermaLink="false">NDW06_49e332b1-89fd-4e80-84e9-454837bc7b49_1</guid>
+<pubDate>Sat, 28 Nov 2026 12:36:33 +0000</pubDate>
+</item>
+<item>
+<title>Onbekende weg | Accident</title>
+<description>Accident</description>
+<link>https://www.rijkswaterstaat.nl/wegen/verkeersinformatie</link>
+<guid isPermaLink="false">NDW06_c8582557-6438-4337-b15a-9e27461addcd_1</guid>
+<pubDate>Sat, 28 Nov 2026 12:27:30 +0000</pubDate>
+</item>
+<item>
+<title>Onbekende weg | Accident</title>
+<description>Accident</description>
+<link>https://www.rijkswaterstaat.nl/wegen/verkeersinformatie</link>
+<guid isPermaLink="false">NDW06_280dee9e-f517-45e4-9524-4a307f4f244f_1</guid>
+<pubDate>Sat, 28 Nov 2026 12:31:32 +0000</pubDate>
+</item>
+<item>
+<title>Onbekende weg | Accident</title>
+<description>Accident</description>
+<link>https://www.rijkswaterstaat.nl/wegen/verkeersinformatie</link>
+<guid isPermaLink="false">NDW06_2f4dd723-c0c1-43cd-9863-7833237b7817_1</guid>
+<pubDate>Sat, 28 Nov 2026 12:25:31 +0000</pubDate>
+</item>
+<item>
+<title>Onbekende weg | Accident</title>
+<description>Accident</description>
+<link>https://www.rijkswaterstaat.nl/wegen/verkeersinformatie</link>
+<guid isPermaLink="false">NDW06_95775a89-d5b9-404b-b3c3-006f41c2d15d_1</guid>
+<pubDate>Sat, 28 Nov 2026 12:15:30 +0000</pubDate>
 </item>
 </channel>
 </rss>
