@@ -1,13 +1,12 @@
 Bron: https://opendata.ndw.nu/actueel_beeld.xml.gz
-Records per type: {'RoadOrCarriagewayOrLaneManagement': 822, 'ReroutingManagement': 83, 'VehicleObstruction': 113, 'SpeedManagement': 106, 'Accident': 5, 'GeneralNetworkManagement': 4, 'GeneralObstruction': 8, 'AbnormalTraffic': 1}
+Records per type: {'RoadOrCarriagewayOrLaneManagement': 792, 'VehicleObstruction': 51, 'SpeedManagement': 99, 'ReroutingManagement': 76, 'GeneralNetworkManagement': 2, 'Accident': 1, 'GeneralObstruction': 2, 'AbnormalTraffic': 1}
 Filter: TYPES=['AbnormalTraffic', 'Accident'] WEGEN=alle BBOX=heel NL
-Items in feed: 6
+Items in feed: 2
 
 Voorbeeld van het eerste record van dit type (ruwe XML):
-<ns0:situationRecord xmlns:ns0="http://datex2.eu/schema/3/situation" xmlns:ns2="http://datex2.eu/schema/3/common" xmlns:ns3="http://datex2.eu/schema/3/locationReferencing" xmlns:ns4="http://datex2.eu/schema/3/situationRecordExtension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="sit:Accident" id="NDW06_d170169e-cff9-4f02-9a71-29aaa418226a_1" version="2">
-  <ns0:situationRecordCreationReference>RWS03_753536_1</ns0:situationRecordCreationReference>
-  <ns0:situationRecordCreationTime>2026-11-27T22:06:57.141267872Z</ns0:situationRecordCreationTime>
-  <ns0:situationRecordVersionTime>2026-11-27T22:08:32.577736963Z</ns0:situationRecordVersionTime>
+<ns0:situationRecord xmlns:ns0="http://datex2.eu/schema/3/situation" xmlns:ns2="http://datex2.eu/schema/3/common" xmlns:ns3="http://datex2.eu/schema/3/locationReferencing" xmlns:ns4="http://datex2.eu/schema/3/situationRecordExtension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="sit:Accident" id="NDW06_2465a69f-6365-42e8-abdd-03ba3a5a73d1_1" version="1">
+  <ns0:situationRecordCreationTime>2026-11-28T03:37:30.438968492Z</ns0:situationRecordCreationTime>
+  <ns0:situationRecordVersionTime>2026-11-28T03:37:30.438968492Z</ns0:situationRecordVersionTime>
   <ns0:probabilityOfOccurrence>certain</ns0:probabilityOfOccurrence>
   <ns0:safetyRelatedMessage>true</ns0:safetyRelatedMessage>
   <ns0:source>
@@ -20,7 +19,7 @@ Voorbeeld van het eerste record van dit type (ruwe XML):
   <ns0:validity>
     <ns2:validityStatus>definedByValidityTimeSpec</ns2:validityStatus>
     <ns2:validityTimeSpecification>
-      <ns2:overallStartTime>2026-11-27T22:06:57.141267872Z</ns2:overallStartTime>
+      <ns2:overallStartTime>2026-11-28T03:37:30.438968492Z</ns2:overallStartTime>
     </ns2:validityTimeSpecification>
   </ns0:validity>
   <ns0:locationReference xsi:type="loc:PointLocation">
@@ -30,10 +29,10 @@ Voorbeeld van het eerste record van dit type (ruwe XML):
       </ns3:carriageway>
     </ns3:supplementaryPositionalDescription>
     <ns3:pointByCoordinates>
-      <ns3:bearing>230</ns3:bearing>
+      <ns3:bearing>190</ns3:bearing>
       <ns3:pointCoordinates>
-        <ns3:latitude>52.49258</ns3:latitude>
-        <ns3:longitude>6.035707</ns3:longitude>
+        <ns3:latitude>51.457256</ns3:latitude>
+        <ns3:longitude>5.1408014</ns3:longitude>
       </ns3:pointCoordinates>
     </ns3:pointByCoordinates>
     <ns3:alertCPoint xsi:type="loc:AlertCMethod4Point">
@@ -41,15 +40,15 @@ Voorbeeld van het eerste record van dit type (ruwe XML):
       <ns3:alertCLocationTableNumber>6.14</ns3:alertCLocationTableNumber>
       <ns3:alertCLocationTableVersion>A</ns3:alertCLocationTableVersion>
       <ns3:alertCDirection>
-        <ns3:alertCDirectionCoded>negative</ns3:alertCDirectionCoded>
+        <ns3:alertCDirectionCoded>positive</ns3:alertCDirectionCoded>
         <ns3:alertCAffectedDirection>aligned</ns3:alertCAffectedDirection>
       </ns3:alertCDirection>
       <ns3:alertCMethod4PrimaryPointLocation>
         <ns3:alertCLocation>
-          <ns3:specificLocation>8514</ns3:specificLocation>
+          <ns3:specificLocation>21121</ns3:specificLocation>
         </ns3:alertCLocation>
         <ns3:offsetDistance>
-          <ns3:offsetDistance>2100</ns3:offsetDistance>
+          <ns3:offsetDistance>5110</ns3:offsetDistance>
         </ns3:offsetDistance>
       </ns3:alertCMethod4PrimaryPointLocation>
     </ns3:alertCPoint>
@@ -57,7 +56,7 @@ Voorbeeld van het eerste record van dit type (ruwe XML):
   <ns0:_situationRecordExtension>
     <ns0:situationRecordExtended>
       <ns4:observationDetermination>
-        <ns4:persistenceEvidenceLevel>100</ns4:persistenceEvidenceLevel>
+        <ns4:persistenceEvidenceLevel>40</ns4:persistenceEvidenceLevel>
         <ns4:persistenceDeterminationType>managedByAutomation</ns4:persistenceDeterminationType>
       </ns4:observationDetermination>
       <ns4:observationReport>
@@ -66,5 +65,5 @@ Voorbeeld van het eerste record van dit type (ruwe XML):
       </ns4:observationReport>
     </ns0:situationRecordExtended>
   </ns0:_situationRecordExtension>
-  <ns0:accidentType>accident</ns0:accidentType>
+  <ns0:accidentType>other</ns0:accidentType>
 </ns0:situationRecord>
